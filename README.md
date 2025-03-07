@@ -4,16 +4,16 @@ Voici un guide étape par étape pour concevoir et assembler la carte électroni
 
 ## 2. Nomenclature
 
-| Reference         | Value           |  Qty  |
-|-------------------|-----------------|-------|
-| D1                | LED Jaune       |  1    |
-| D2                | LED Jaune       |  1    |
-| D3                | LED Jaune       |  1    |
-| D4                | LED Jaune       |  1    |
-| D5                | LED Rouge       |  1    |
-| J1, j4            | Conn. USBC      |  2    |
-| J2                | Conn. USBA      |  1    |
-| J3                | Conn. USBmicro  |  1    |
+| Reference | Value          | Qty |
+| --------- | -------------- | --- |
+| D1        | LED Jaune      | 1   |
+| D2        | LED Jaune      | 1   |
+| D3        | LED Jaune      | 1   |
+| D4        | LED Jaune      | 1   |
+| D5        | LED Rouge      | 1   |
+| J1, j4    | Conn. USBC     | 2   |
+| J2        | Conn. USBA     | 1   |
+| J3        | Conn. USBmicro | 1   |
 
 
 ## 4. Préparation à l’Assemblage
