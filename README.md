@@ -1,10 +1,3 @@
-
-# DUSB Tester  : Fabrication
-Dans cette vidéo, découvrez le testeur USB entièrement assemblé et programmé !  
-
-[![Voir la démonstration](images/video-thumbnail.jpeg)](https://tube-sciences-technologies.apps.education.fr/w/i4Xqwx69rhGFDRBjq2J4fU)
-
-
 # Dossier de conception 
 
 Voici un guide étape par étape pour concevoir et assembler la carte électronique intégrant des composants CMS (résistances et LED, quelques connecteurs  montés en surface) ainsi que des composants traversants . Ce procédé  inclut l'application manuelle de pâte à braser et le passage en four à refusion sans utilisation de stencil.
@@ -80,13 +73,13 @@ Voici un guide étape par étape pour concevoir et assembler la carte électroni
 - **Soudure :**
   - Utilisez un fer à souder pour souder manuellement ces composants.
   - Assurez-vous de réaliser des soudures nettes et sans ponts.
+![soudure Composants travesants ](images/etape8.jpg)
 
-![Arduino HS](images/etape6.jpg)
 
 
 ## 9. Inspection et Tests
+![Inspection visuelle ](images/etape6.jpg)
 
-![Brasures Terminéee](images/etape10.jpg)
 
 - **Contrôle visuel :**
 
@@ -96,3 +89,4 @@ Voici un guide étape par étape pour concevoir et assembler la carte électroni
 - **Tests fonctionnels :**
   - Alimentez la carte et vérifiez le bon fonctionnement de l’ensemble du circuit (LED, buzzer, connecteur Arduino).
   - Mesurez les tensions et vérifiez la continuité des pistes si nécessaire.
+![Test fonctionnels](images/etape7.jpg)
