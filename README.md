@@ -4,42 +4,24 @@ Dans cette vidéo, découvrez le testeur USB entièrement assemblé et programm�
 
 [![Voir la démonstration](images/video-thumbnail.jpeg)](https://tube-sciences-technologies.apps.education.fr/w/i4Xqwx69rhGFDRBjq2J4fU)
 
-Ce projet, basé sur une carte Arduino, intègre :
-- **4 LEDs** et **4 boutons** pour reproduire la séquence du jeu,
-- Un **buzzer** pour les signaux sonores,
-- Un **boîtier imprimé en 3D** réalisé sur mesure,
 
+# Dossier de conception 
 
-# Dossier de conception du shield Arduino
-
-Voici un guide étape par étape pour concevoir et assembler la carte électronique intégrant des composants CMS (résistances et LED montées en surface) ainsi que des composants traversants (comme le connecteur Arduino et le buzzer). Ce procédé  inclut l'application manuelle de pâte à braser et le passage en four à refusion sans utilisation de stencil.
-
-## 1. Génération des Fichiers de Fabrication
-
-- **Fichiers Gerber :**
-- Télécharger [fichiers de fabrication gerber Simon3.zip](hardware/kicad/simon3/production/simon3.zip)
-- **Fabrication du PCB :**
-- Envoyez ces fichiers à un fabricant de PCB (JLCPCB)
+Voici un guide étape par étape pour concevoir et assembler la carte électronique intégrant des composants CMS (résistances et LED, quelques connecteurs  montés en surface) ainsi que des composants traversants . Ce procédé  inclut l'application manuelle de pâte à braser et le passage en four à refusion sans utilisation de stencil.
 
 ## 2. Nomenclature
 
-| Reference         | Value        |  Qty |
-|-------------------|--------------|----- |
-| BZ1               | Buzzer       |  1   |
-| D1                | LED RED      |  1   |
-| D2                | LED Green    |  1   |
-| D3                | LED Blue     |  1   |
-| D4                | LED Yellow   |  1   |
-| J1                | Power        |  1   |
-| J2,J4             | Digital/PWM  |  2   |
-| J3                | Analog       |  1   |
-| R1,R2             | 160          |  2   |
-| R3                | 100          |  1   |
-| R4                | 150          |  1   |
-| R5,R6,R7,R8       | 10k          |  4   |
-| SW1,SW2,SW3,SW4   | SW_Push      |  4   |
+| Reference         | Value           |  Qty  |
+|-------------------|-----------------|-------|
+| D1                | LED Jaune       |  1    |
+| D2                | LED Jaune       |  1    |
+| D3                | LED Jaune       |  1    |
+| D4                | LED Jaune       |  1    |
+| D5                | LED Rouge       |  1    |
+| J1, j4            | Conn. USBC      |  2    |
+| J2                | Conn. USBA      |  1    |
+| J3                | Conn. USBmicro  |  1    |
 
-[Nomenclature](hardware/kicad/simon3/simon3.csv)
 
 ## 4. Préparation à l’Assemblage
 
@@ -49,7 +31,6 @@ Voici un guide étape par étape pour concevoir et assembler la carte électroni
   - Organisez votre matériel : pâte à braser (en seringue), fer à souder pour les composants traversants, four à refusion.
 - **Documentation :**
   - Imprimez le schéma et/ou un plan de positionnement (layout) pour guider le placement des composants.
-![Implantation ](hardware/kicad/simon3/implantation.pdf)
 
 
 # Brasage des composants
@@ -95,16 +76,13 @@ Voici un guide étape par étape pour concevoir et assembler la carte électroni
 ## 8. Soudure des Composants Traversants
 
 - **Placement manuel :**
-  - Après la refusion des composants CMS, positionnez les composants traversants (connecteur Arduino, buzzer, etc.) sur la carte.
+  - Après la refusion des composants CMS, positionnez les composants traversants (connecteurs USB ) sur la carte.
 - **Soudure :**
   - Utilisez un fer à souder pour souder manuellement ces composants.
   - Assurez-vous de réaliser des soudures nettes et sans ponts.
-- Utilisation d'une carte Arduino HS pour pour maintenir le shield et les connecteurs 
+
 ![Arduino HS](images/etape6.jpg)
-- Placer la carte par dessus 
-![Shield maintenu sur l'Arduino UNO](images/etape7.jpg)
-![Soudure du connecteur](images/etape8.jpg)
-![Soudure du buzzer](images/etape9.jpg)
+
 
 ## 9. Inspection et Tests
 
