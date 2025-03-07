@@ -1,4 +1,4 @@
-# Dossier de conception 
+# Dossier de conception USB Tester 
 
 Voici un guide étape par étape pour concevoir et assembler la carte électronique intégrant des composants CMS (résistances et LED, quelques connecteurs  montés en surface) ainsi que des composants traversants . Ce procédé  inclut l'application manuelle de pâte à braser et le passage en four à refusion sans utilisation de stencil.
 
@@ -78,8 +78,7 @@ Voici un guide étape par étape pour concevoir et assembler la carte électroni
 
 
 ## 9. Inspection et Tests
-![Inspection visuelle ](images/etape6.jpg)
-
+<img src="images/etape6.jpg" alt="Inspection visuelle" width="50%">
 
 - **Contrôle visuel :**
 
